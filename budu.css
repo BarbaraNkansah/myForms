@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    height: 0;
+     position: relative;
+}
+body{
+    background-image: url(assets/love.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.gata{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.lomo{
+    text-align: center;
+}
+ div #demo{
+
+visibility: hidden;
+}
+.lomo input{
+    width: 50%;
+}
+
