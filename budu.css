@@ -1,31 +1,37 @@
 body{
     margin: 0;
     height: 0;
-     position: relative;
-}
+    box-sizing: border-box;
+} 
 body{
-    background-image: url(assets/love.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-}
-.gata{
-    align-items: center;
     display: flex;
     flex-direction: column;
-    row-gap: 4px;
-    font-size: 20px;
-    box-sizing: border-box;
-    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seagreen;
 }
-.lomo{
+.mother{
+    width: 420px;
+    background: purple;
+    color: white;
+    margin: 30px 20px 20px 30px;
+}
+.lomo h2{
+    font-size: 36px;
     text-align: center;
 }
- div #demo{
-
-visibility: hidden;
+.roo{
+    font-size: 18px;
 }
-.lomo input{
-    width: 50%;
+.roo input{
+    width: 60%;
+    height: 40px;
+    background: rgba(0, 183, 255, 0.879);
+    margin: 20px 0;
+
+}
+.roo input::placeholder{
+    color: white;
 }
 
